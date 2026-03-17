@@ -45,6 +45,7 @@
 
 // console.log(number.includes(100));
 
+// ***************** some ***********************
 const users = [
   {
     name: "Alisher",
@@ -65,7 +66,14 @@ const users = [
     age: 25,
   }
 ];
-// console.log(users.some((users) => users.name === 'Alisher'));
-// console.log(users.every((users) => users.age >= 18));
+console.log(users.some((users) => users.name === 'Alisher'));
+
+// ***************** every ***********************
+console.log(users.every((users) => users.age >= 18));
+
+// ***************** find ***********************
 console.log(users.find((users) => users.name === 'Vasiliy'));
+
+// ***************** filter ***********************
 console.log(users.filter((users) => users.name === 'Vasiliy'));
+

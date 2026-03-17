@@ -6,13 +6,13 @@
 // logHello()
 
 
-// function  message(message , count = 2) {
-//    for(let a = 0; a < count ; a++){
-//     console.log(message)
-//    }
-// }
-// message('Alisher' ,5)
-// message('Alisher')
+function  message(message , count = 2) {
+   for(let a = 0; a < count ; a++){
+    console.log(message)
+   }
+}
+message('Alisher' ,5)
+message('Alisher')
 
 
 
